@@ -19,8 +19,9 @@ disablePathToLower = true
 # Pagination
 # number of entries per page for archives, tags and categories
 # since we don't have list view, recommend a large value
-paginate = 20
-paginatePath = "page"
+[pagination]
+pagerSize = 20  # 替换原有的 paginate = 20
+path = "page"   # 替换原有的 paginatePath = "page"
 
 # Syntax Hightlight
 PygmentsCodeFences = true
@@ -34,17 +35,12 @@ googleAnalytics = ""         # UA-XXXXXXXX-X
 defaultContentLanguage = "zh-cn"           # Default language to use
 defaultContentLanguageInSubdir = false
 
-
-
 # Links format
 [permalinks]
   posts = "/:year/:month/:day/:slug/"
   categories = "/category/:slug/"      # required
   tags = "/tag/:slug/"                 # required
   pages = "/:slug/"
-
-[author]                     # required
-  name = "风筝"
 
 [sitemap]                    # required
   changefreq = "daily"
@@ -58,6 +54,8 @@ defaultContentLanguageInSubdir = false
 [params]
   since = "2023"             # Site creation time
   rssFullContent = true      # set true to use full content instead of summary
+  author = "风筝"            # 新增 author 参数，替代原来的 [author] 部分
+  email = ""                 # 新增 email 参数，RSS 需要使用
 
   # site info (optional)
   keywords = ["Hugo", "theme","编程",'Java','ChatGPT',"程序员",'开发']
@@ -84,7 +82,6 @@ defaultContentLanguageInSubdir = false
   # google_verification = "google57680cd58c46e2f3.html"  # Google_Verification
 
   enableRelated = true
-
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
@@ -198,47 +195,47 @@ defaultContentLanguageInSubdir = false
     url = "https://github.com/huzhicheng"
 
 
-# [languages.en]
-#   languageCode = "en"
-#   languageName = "English"
-#   contentDir = "content/en"
-#   weight = 2
+[languages.en]
+  languageCode = "en"
+  languageName = "English"
+  contentDir = "content/en"
+  weight = 2
 
-#   [languages.en.params]
-#     description = "Write something here."
+  [languages.en.params]
+    description = "Write something here."
 
-#   [[languages.en.menu.main]]
-#     name = "Home"
-#     weight = 10
-#     identifier = "home"
-#     url = "/"
+  [[languages.en.menu.main]]
+    name = "Home"
+    weight = 10
+    identifier = "home"
+    url = "/"
 
-#   [[languages.en.menu.main]]
-#     name = "Java"
-#     weight = 20
-#     identifier = "java"
-#     url = "category/java/"
+  [[languages.en.menu.main]]
+    name = "Java"
+    weight = 20
+    identifier = "java"
+    url = "category/java/"
 
-#   [[languages.en.menu.main]]
-#     name = "Life Notes"
-#     weight = 10
-#     identifier = "notes"
-#     url = "category/notes/"
+  [[languages.en.menu.main]]
+    name = "Life Notes"
+    weight = 10
+    identifier = "notes"
+    url = "category/notes/"
   
-#   [[languages.en.menu.main]]
-#     name = "Demo Showcase"
-#     weight = 20
-#     identifier = "demos"
-#     url = "category/demos/"
+  [[languages.en.menu.main]]
+    name = "Demo Showcase"
+    weight = 20
+    identifier = "demos"
+    url = "category/demos/"
 
-#   [[languages.en.menu.social]]
-#     name = "GitHub"
-#     weight = 10
-#     identifier = "github"
-#     url = "https://github.com/huzhicheng"
+  [[languages.en.menu.social]]
+    name = "GitHub"
+    weight = 10
+    identifier = "github"
+    url = "https://github.com/huzhicheng"
 
-#   [[languages.en.menu.links]]
-#     name = "About Me"
-#     weight = 10
-#     identifier = "about-me"
-#     url = "https://github.com/huzhicheng"
+  [[languages.en.menu.links]]
+    name = "About Me"
+    weight = 10
+    identifier = "about-me"
+    url = "https://github.com/huzhicheng"
