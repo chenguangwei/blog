@@ -1,5 +1,5 @@
 <div align="center">
-<h1>古时的风筝开源博客</h1>
+<h1>开源博客</h1>
 
 ![Hugo](https://img.shields.io/badge/Hugo-EBB851?style=for-the-badge&logo=hugo&logoColor=#FF4088)    ![Markdown](https://img.shields.io/badge/Markdown-34BA91?style=for-the-badge&logo=Markdown&logoColor=#FF4088)
 
