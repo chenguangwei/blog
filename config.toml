@@ -1,7 +1,7 @@
 # ------------------------------------- #
 # ---- General Settings --------------- #
 # ------------------------------------- #
-baseURL = "https://www..com"
+baseURL = "https://myblog.yilutongxing.dev/"
 title = "一路同行"
 theme = "hugo-theme-den"
 enableRobotsTXT = true       # generate robots.txt

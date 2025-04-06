@@ -152,7 +152,7 @@ Press Ctrl+C to stop
 例如在 `data/authors`目录下创建 `fengzheng.toml`的文件，配置上内容
 
 ```toml
-url = "https://showcodeba.com"
+url = "https://myblog.yilutongxing.dev"
 
 [name]
 display = "风筝"
