@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TTS文章列表 on 一路同行</title>
+    <link>http://localhost:1313/zh-cn/category/AI/TTS/</link>
+    <description>Recent content in TTS文章列表 on 一路同行</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <atom:link href="http://localhost:1313/zh-cn/category/AI/TTS/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
